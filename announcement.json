@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "announcements": [
+    {
+      "id": "2026-08-13-welcome",
+      "kind": "news",
+      "title": "欢迎使用 Tengri Qaghan",
+      "body": "Tengri Qaghan 首个公开版本发布。\n\n这是一款基于 Electron + React 的跨平台流媒体播放器，支持 TMDB 元数据、Jellyfin/Emby 点播、IPTV 直播、本地文件播放、3D 歌单架与粒子视觉。\n\n如有问题或建议，欢迎到 GitHub 仓库反馈。",
+      "publishedAt": "2026-08-13T10:00:00Z",
+      "actionLabel": "访问 GitHub",
+      "actionUrl": "https://github.com/65tiankehan/tengriqaghan"
+    }
+  ]
+}
