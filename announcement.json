@@ -2,6 +2,15 @@
   "version": 2,
   "announcements": [
     {
+      "id": "free-refund-notice-20260816",
+      "kind": "notice",
+      "title": "本产品完全免费，如遇收费请退款",
+      "body": "Tengri Qaghan 是完全免费的开源软件，不会以任何名义向你收取费用。\n\n如果你是花钱购买得到的本软件，说明你遇到了盗版或倒卖，请立即向购买渠道申请退款，并从官方渠道获取正版。",
+      "publishedAt": "2026-08-16T08:00:00Z",
+      "actionLabel": "官方仓库",
+      "actionUrl": "https://github.com/65tiankehan/tengriqaghan-Code"
+    },
+    {
       "id": "welcome-v1.0.0",
       "kind": "news",
       "title": "欢迎使用 Tengri Qaghan v1.0.0",
