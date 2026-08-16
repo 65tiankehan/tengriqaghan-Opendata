@@ -18,15 +18,6 @@
       "publishedAt": "2026-08-16T08:00:00Z",
       "actionLabel": "官方仓库",
       "actionUrl": "https://github.com/65tiankehan/tengriqaghan-Code"
-    },
-    {
-      "id": "welcome-v1.0.0",
-      "kind": "news",
-      "title": "欢迎使用 Tengri Qaghan v1.0.0",
-      "body": "首个公开版本正式发布。\n\n本版本带来完整的流媒体播放体验：TMDB 元数据、Jellyfin / Plex / Xtream Codes / WebDAV / IPTV / 自定义源、跨源搜索与播放路由、收藏与历史、Gist 云同步、18+ 年龄门、远程公告、自动更新等。\n\n如遇问题或建议，欢迎到作者主页反馈。",
-      "publishedAt": "2026-08-13T10:00:00Z",
-      "actionLabel": "作者主页",
-      "actionUrl": "https://github.com/65tiankehan"
     }
   ],
   "killSwitch": {
