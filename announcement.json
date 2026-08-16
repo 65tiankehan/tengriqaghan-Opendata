@@ -2,6 +2,15 @@
   "version": 2,
   "announcements": [
     {
+      "id": "release-v1.0.11-20260816",
+      "kind": "news",
+      "title": "v1.0.11 发布：HLS 下载、真实分享与帮助中心",
+      "body": "新版本已就绪，本次更新内容：\n\n· HLS（m3u8）下载与转封装为本地 mp4，支持断点续传；\n· 详情页顶部分享按钮可用：复制影片信息、跳转 TMDB / IMDb / 豆瓣；\n· 新增应用内帮助中心：快速上手、播放快捷键、常见问题；\n· 修复升级后片源配置被重置丢失的问题；\n· 铃铛通知中心接入远程公告，已读不重复弹窗；\n· 设置页新增「AI 增强」与 AI 助手未来能力开关（陆续开放中）。\n\n可在「设置 → 关于 → 检查更新」升级。",
+      "publishedAt": "2026-08-16T09:30:00Z",
+      "actionLabel": "更新日志",
+      "actionUrl": "https://github.com/65tiankehan/tengriqaghan-releases/releases"
+    },
+    {
       "id": "free-refund-notice-20260816",
       "kind": "notice",
       "title": "本产品完全免费，如遇收费请退款",
