@@ -2,6 +2,15 @@
   "version": 2,
   "announcements": [
     {
+      "id": "release-v1.0.15-20260817",
+      "kind": "news",
+      "title": "v1.0.15 发布：通知与下载体验修复",
+      "body": "新版本已就绪（跳过 1.0.14）。本次为 v1.0.13 后的体验修复版：\n\n· 修复通知铃铛点开已读后，下次启动小红点又出现的问题；\n· 下载完成：应用在前台时弹应用内提示，后台/最小化时才发系统通知，不再重复打扰；\n· 统一选择目录、本地视频、字幕、导出字幕的系统对话框文案；\n· 导出 AI 字幕默认文件名改为片名；\n· 修复帮助中心反馈链接指向私有仓库的问题，现指向公开反馈入口。\n\n同时 v1.0.13 带来的 AI 字幕双语同屏、流式翻译、断点续译、在线分片流水线和独立字幕管理页也全部包含在本版本中。\n\n可在「设置 → 关于 → 检查更新」升级。",
+      "publishedAt": "2026-08-17T06:00:00Z",
+      "actionLabel": "更新日志",
+      "actionUrl": "https://github.com/65tiankehan/tengriqaghan-releases/releases"
+    },
+    {
       "id": "release-v1.0.11-20260816",
       "kind": "news",
       "title": "v1.0.11 发布：HLS 下载、真实分享与帮助中心",
@@ -16,8 +25,8 @@
       "title": "本产品完全免费，如遇收费请退款",
       "body": "Tengri Qaghan 是完全免费的开源软件，不会以任何名义向你收取费用。\n\n如果你是花钱购买得到的本软件，说明你遇到了盗版或倒卖，请立即向购买渠道申请退款，并从官方渠道获取正版。",
       "publishedAt": "2026-08-16T08:00:00Z",
-      "actionLabel": "官方仓库",
-      "actionUrl": "https://github.com/65tiankehan/tengriqaghan-Code"
+      "actionLabel": "官方下载",
+      "actionUrl": "https://github.com/65tiankehan/tengriqaghan-releases/releases"
     }
   ],
   "killSwitch": {
