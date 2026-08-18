@@ -2,6 +2,15 @@
   "version": 2,
   "announcements": [
     {
+      "id": "release-v1.0.16-20260818",
+      "kind": "news",
+      "title": "v1.0.16 发布：AI 降噪 / 超清 + 下载磁盘管理",
+      "body": "新版已就绪，本次为 AI 能力增强与下载管理升级版：\n\n· AI 音频降噪（DeepFilterNet3）：分段并行处理，长片不爆内存，输出「片名 [降噪].mp4」；\n· AI 画质超清（Real-ESRGAN）：2x/4x 真人超分，显存不足自动分块，输出 [2K]/[4K] 版本；\n· 全局 GPU 互斥：超分与 GPU 字幕自动排队，不抢显卡；\n· 按版本删除：可勾选删除原片 / 降噪 / 超清文件，真实释放磁盘；\n· 下载目录迁移：一键把影片、AI 产物、字幕搬到其他盘（支持跨盘）；\n· 修复 Gist 删除复活、设置页 TMDB 配置重启消失、超分卡在「抽画面」等问题。\n\n所有 AI 处理均在本地完成，不上传影片。可在「设置 → 关于 → 检查更新」升级。",
+      "publishedAt": "2026-08-18T00:00:00Z",
+      "actionLabel": "更新日志",
+      "actionUrl": "https://github.com/65tiankehan/tengriqaghan-releases/releases"
+    },
+    {
       "id": "release-v1.0.15-20260817",
       "kind": "news",
       "title": "v1.0.15 发布：通知与下载体验修复",
