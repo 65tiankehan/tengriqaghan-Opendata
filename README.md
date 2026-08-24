@@ -1,6 +1,6 @@
-# Tengri Qaghan · OpenData
+# Tengri Desk · OpenData
 
-Tengri Qaghan 桌面应用的**公开静态数据仓库**。应用启动时从这里拉取远程公告等数据，无需自建服务器。
+Tengri Desk（腾格里汗）桌面应用的**公开静态数据仓库**。应用启动时从这里拉取远程公告等数据，无需自建服务器。
 
 ## 文件
 

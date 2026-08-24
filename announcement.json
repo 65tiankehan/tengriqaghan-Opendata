@@ -2,6 +2,15 @@
   "version": 2,
   "announcements": [
     {
+      "id": "release-v1.0.24-20260824",
+      "kind": "news",
+      "title": "v1.0.24 发布：全新图标 + 账号隔离 + 动漫超清",
+      "body": "新版已就绪，本次更新：\n\n· 应用换上全新图标与显示名「Tengri Desk（腾格里汗）」，任务栏、快捷方式、关于面板同步更新；\n· 账号切换数据隔离收口：多账号间的收藏、历史、设置不再串号，切换更干净；\n· AI 超清新增动漫模型 realesr-animevideov3，动画线条更锐利、不糊脸；可在自动 / 真人 / 动漫间手动选择；\n· 解析阶段轻量探活：死链直接切下一可用线路，不用等播放失败才回退；\n· 修复通知铃铛点了已读后重启红点复现的问题。\n\n所有处理均在本地完成，不上传观看记录。可在「设置 → 关于 → 检查更新」升级。",
+      "publishedAt": "2026-08-24T01:30:00Z",
+      "actionLabel": "更新日志",
+      "actionUrl": "https://github.com/65tiankehan/tengriqaghan-releases/releases/tag/v1.0.24"
+    },
+    {
       "id": "release-v1.0.19-20260820",
       "kind": "news",
       "title": "v1.0.19 发布：新机器冷启动体验修复",
@@ -59,7 +68,7 @@
       "id": "free-refund-notice-20260816",
       "kind": "notice",
       "title": "本产品完全免费，如遇收费请退款",
-      "body": "Tengri Qaghan 是完全免费的开源软件，不会以任何名义向你收取费用。\n\n如果你是花钱购买得到的本软件，说明你遇到了盗版或倒卖，请立即向购买渠道申请退款，并从官方渠道获取正版。",
+      "body": "Tengri Desk（腾格里汗）是完全免费的个人软件，不会以任何名义向你收取费用。\n\n如果你是花钱购买得到的本软件，说明你遇到了盗版或倒卖，请立即向购买渠道申请退款，并从官方渠道获取正版。",
       "publishedAt": "2026-08-16T08:00:00Z",
       "actionLabel": "官方下载",
       "actionUrl": "https://github.com/65tiankehan/tengriqaghan-releases/releases"
