@@ -2,6 +2,15 @@
   "version": 2,
   "announcements": [
     {
+      "id": "release-v1.0.25-20260824",
+      "kind": "news",
+      "title": "v1.0.25 发布：界面三语 + AI 助手真 AI 双通道",
+      "body": "新版已就绪，本次更新：\n\n· 界面支持简体中文 / English / 日本語，在「设置 → 通用」可即时切换，覆盖首页、播放器、设置等主要界面；\n· AI 助手接入真 AI 双通道：可选本地「菜包」全离线推理，也可接入任意 OpenAI 兼容云端（DeepSeek / 通义千问 / OpenAI / 自定义）；\n· 云端 API Key 经系统安全存储加密保存在本机，不会写入配置文件或上传，渲染层只持有凭据引用；\n· 首页 Hero、心情推荐卡、播放器陪伴文案改由 AI 生成，AI 不可用时安静回退，不打断观影；\n· AI 请求超时由 8 秒放宽到 20 秒（云端 15 秒），慢网络下更稳；\n· 修复删除原片后降噪 / 超清入口残留、个人页布局错位、导航栏品牌名显示等问题。\n\n所有本地处理不上传观看记录；使用云端 AI 时仅与你自选的服务商通信。可在「设置 → 关于 → 检查更新」升级。",
+      "publishedAt": "2026-08-24T08:00:00Z",
+      "actionLabel": "更新日志",
+      "actionUrl": "https://github.com/65tiankehan/tengriqaghan-releases/releases/tag/v1.0.25"
+    },
+    {
       "id": "release-v1.0.24-20260824",
       "kind": "news",
       "title": "v1.0.24 发布：全新图标 + 账号隔离 + 动漫超清",
