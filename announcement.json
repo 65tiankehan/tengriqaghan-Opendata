@@ -2,6 +2,15 @@
   "version": 2,
   "announcements": [
     {
+      "id": "release-v1.0.34-20260828",
+      "kind": "news",
+      "title": "v1.0.34 发布：修复设置「AI 增强」页文案显示异常",
+      "body": "新版已就绪，这是一个小版本修复：\n\n· 修复设置「AI 增强」页部分标题显示英文原始 key 的问题——「一键修复预设」「更多 AI 能力」分组（经典老片修复、动漫 4K、深夜人声增强、生肉双语字幕、AI 人脸修复、老片修复、环绕上混、人声增强、LLM 字幕润色等）此前漏配文案，会直接显示 key 原文；现已补齐中/英/日三语，三种界面语言下均正常显示。\n\n这些能力中标注「即将开放」的为预告项，AI 生成字幕与 AI 音频降噪已在本地离线运行，其余将在后续版本陆续开放。\n\n可在「设置 → 关于 → 检查更新」升级。",
+      "publishedAt": "2026-08-28T18:30:00Z",
+      "actionLabel": "更新日志",
+      "actionUrl": "https://github.com/65tiankehan/tengriqaghan-releases/releases/tag/v1.0.34"
+    },
+    {
       "id": "release-v1.0.33-20260828",
       "kind": "news",
       "title": "v1.0.33 发布：大屏模式大更新，手机可变身遥控器",
