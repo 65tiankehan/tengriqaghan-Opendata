@@ -2,6 +2,15 @@
   "version": 2,
   "announcements": [
     {
+      "id": "release-v1.0.36-20260829",
+      "kind": "news",
+      "title": "v1.0.36 发布：修复大屏详情页线路与选集缺失",
+      "body": "本次为电视大屏模式的修复更新：\n\n· 修复大屏影片详情页不显示「播放线路」和「选集」的问题：当详情数据只返回元信息时，会正确保留你从片库列表带入的可播线路，同时自动把其他已配置片源里同名影片的线路聚合进来（与桌面端体验一致）。现在电影可以在多条线路间切换，剧集可以正常选集播放。\n\n可在「设置 → 关于 → 检查更新」升级。",
+      "publishedAt": "2026-08-29T13:00:00Z",
+      "actionLabel": "更新日志",
+      "actionUrl": "https://github.com/65tiankehan/tengriqaghan-releases/releases/tag/v1.0.36"
+    },
+    {
       "id": "release-v1.0.35-20260829",
       "kind": "news",
       "title": "v1.0.35 发布：大屏沉浸感升级，遥控器能控制播放了",
