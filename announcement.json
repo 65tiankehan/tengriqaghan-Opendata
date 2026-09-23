@@ -1,6 +1,15 @@
 {
-  "version": 10,
+  "version": 11,
   "announcements": [
+    {
+      "id": "release-v1.0.49-20260924",
+      "kind": "news",
+      "title": "v1.0.49 发布：修复 HLS 下载 + 下载页体验修正",
+      "body": "本版修复了 1.0.8 以来 HLS（m3u8 影片）下载一直无法工作的根因：包内 6 个嵌套依赖未解包导致模块加载失败、下载 0% 卡死。同时下载页 × 按钮改为真正的「取消并移除」。\n\n· 修复 HLS 下载：electron-builder.yml asarUnpack 补配 @lzwme/m3u8-dl 包内嵌套依赖（commander / global-agent / matcher / semver / serialize-error / type-fest），HLS 模块加载恢复正常，可正常下载 m3u8 影片。\n\n· 下载页 × 按钮：确认后真正「取消并移除」任务（中断 + 删除缓存/分片 + 从列表消失），不再只中断下载留下幽灵记录。\n\n· TV 翻译补全：通用设置中「软件更新」等条目的翻译键已补全，原 key 原文显示已修复。",
+      "publishedAt": "2026-09-24T03:00:00Z",
+      "actionLabel": "下载本版",
+      "actionUrl": "https://github.com/65tiankehan/tengriqaghan-releases/releases/tag/v1.0.49"
+    },
     {
       "id": "release-v1.0.48-20260923",
       "kind": "news",
