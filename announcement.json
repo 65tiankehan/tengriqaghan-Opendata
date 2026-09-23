@@ -1,32 +1,14 @@
 {
-  "version": 11,
+  "version": 12,
   "announcements": [
     {
-      "id": "release-v1.0.49-20260924",
+      "id": "release-v1.0.50-20260924",
       "kind": "news",
-      "title": "v1.0.49 发布：修复 HLS 下载 + 下载页体验修正",
-      "body": "本版修复了 1.0.8 以来 HLS（m3u8 影片）下载一直无法工作的根因：包内 6 个嵌套依赖未解包导致模块加载失败、下载 0% 卡死。同时下载页 × 按钮改为真正的「取消并移除」。\n\n· 修复 HLS 下载：electron-builder.yml asarUnpack 补配 @lzwme/m3u8-dl 包内嵌套依赖（commander / global-agent / matcher / semver / serialize-error / type-fest），HLS 模块加载恢复正常，可正常下载 m3u8 影片。\n\n· 下载页 × 按钮：确认后真正「取消并移除」任务（中断 + 删除缓存/分片 + 从列表消失），不再只中断下载留下幽灵记录。\n\n· TV 翻译补全：通用设置中「软件更新」等条目的翻译键已补全，原 key 原文显示已修复。",
-      "publishedAt": "2026-09-24T03:00:00Z",
+      "title": "v1.0.50 发布：详情页按集下载 + 铃铛三态通知",
+      "body": "详情页可以按集下载了，下载过程会在右上角铃铛通知中心推送开始、完成、失败三种状态，点击通知直接跳转到下载页。\n\n· 详情页按集下载：剧集类条目在 Meta 区不再显示「主下载按钮」，改为每一集行尾的下载小图标（hover/focus 显形）。单集影片（电影、单集剧集）保留原 Meta 主下载按钮。已下载或下载中的集数不再出现下载图标，避免重复添加。\n\n· 铃铛三态通知：下载开始、完成、失败都会推送到右上角铃铛通知中心（带颜色档位：info/success/error），点击通知直接跳转到「下载」页查看进度与本地文件。原 toast.success 已移除，避免与铃铛重复弹窗。\n\n· 下载页卡片显示「第几集」角标：使用按集下载后，本地下载卡片会显示 SxxExx 角标，一眼看到已缓存到本地的集数。",
+      "publishedAt": "2026-09-24T10:00:00Z",
       "actionLabel": "下载本版",
-      "actionUrl": "https://github.com/65tiankehan/tengriqaghan-releases/releases/tag/v1.0.49"
-    },
-    {
-      "id": "release-v1.0.48-20260923",
-      "kind": "news",
-      "title": "v1.0.48 发布：修复自动更新失败",
-      "body": "本版修复了 1.0.46 / 1.0.47 的自动更新失败问题——上一版的更新签名校验存在缺陷，导致无法自动更新到新版本。\n\n· 修复自动更新：更新签名校验命令缺陷已修复。1.0.46 / 1.0.47 及更早版本的朋友，请手动下载本版覆盖安装一次，之后自动更新恢复正常。\n\n· TV 大屏更新页：电视模式下「设置 → 软件更新」即可用遥控器完成检查、下载、安装全流程。\n\n· 安全校验保持：更新包安装前始终校验官方签名证书指纹，下载通道即使被劫持也无法安装被篡改的安装包。",
-      "publishedAt": "2026-09-23T03:00:00Z",
-      "actionLabel": "手动下载本版",
-      "actionUrl": "https://github.com/65tiankehan/tengriqaghan-releases/releases/tag/v1.0.48"
-    },
-    {
-      "id": "release-v1.0.47-20260923",
-      "kind": "news",
-      "title": "v1.0.47 发布：全新软件更新页",
-      "body": "更新体验焕新：发现新版本后有专属更新页——看更新说明、盯下载进度和速度，下载完成一键重启安装。\n\n· 全新更新页：独立页面展示版本说明、下载进度与实时速度；下载中可离开页面继续观影，不中断。\n\n· 更新提醒升级：启动时发现新版本会弹「前往更新」提示，点击直达更新页，不用再进设置里找。\n\n· 安全加固：更新包安装前始终校验官方签名证书指纹，下载通道即使被劫持也无法安装被篡改的安装包。\n\n· 上一版（1.0.46）已修复自动更新失败问题。仍在使用 1.0.45 及更早版本的朋友，请手动下载本版覆盖安装一次，之后即可正常自动更新。",
-      "publishedAt": "2026-09-23T02:00:00Z",
-      "actionLabel": "手动下载本版",
-      "actionUrl": "https://github.com/65tiankehan/tengriqaghan-releases/releases/tag/v1.0.47"
+      "actionUrl": "https://github.com/65tiankehan/tengriqaghan-releases/releases/tag/v1.0.50"
     },
     {
       "id": "free-refund-notice-20260816",
