@@ -1,6 +1,15 @@
 {
-  "version": 16,
+  "version": 17,
   "announcements": [
+    {
+      "id": "release-v1.0.55-20260928",
+      "kind": "news",
+      "title": "v1.0.55 发布：观影成就扩到 12 枚",
+      "body": "个人资料页的观影成就从 9 枚扩充到 12 枚，新增三枚：\n\n· 🦉 夜猫子——在深夜 23:00 到 5:00 之间看过内容，即可点亮\n· 🤝 老朋友——陪伴天数达标自动升级：7 天铜、30 天银、100 天金\n· 🕳️ 弃剧王——弃剧数量达标自动升级：5 部铜、15 部银、40 部金\n\n本版同时用于验证 v1.0.54 修复后的应用内更新链路：从旧版点「更新」能正常进入下载，说明通道已恢复。",
+      "publishedAt": "2026-09-28T00:00:00Z",
+      "actionLabel": "下载本版",
+      "actionUrl": "https://github.com/65tiankehan/tengriqaghan-releases/releases/tag/v1.0.55"
+    },
     {
       "id": "release-v1.0.54-20260928",
       "kind": "news",
