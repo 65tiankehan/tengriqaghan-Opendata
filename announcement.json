@@ -1,23 +1,14 @@
 {
-  "version": 17,
+  "version": 18,
   "announcements": [
     {
-      "id": "release-v1.0.55-20260928",
+      "id": "release-v1.0.56-20260930",
       "kind": "news",
-      "title": "v1.0.55 发布：观影成就扩到 12 枚",
-      "body": "个人资料页的观影成就从 9 枚扩充到 12 枚，新增三枚：\n\n· 🦉 夜猫子——在深夜 23:00 到 5:00 之间看过内容，即可点亮\n· 🤝 老朋友——陪伴天数达标自动升级：7 天铜、30 天银、100 天金\n· 🕳️ 弃剧王——弃剧数量达标自动升级：5 部铜、15 部银、40 部金\n\n本版同时用于验证 v1.0.54 修复后的应用内更新链路：从旧版点「更新」能正常进入下载，说明通道已恢复。",
-      "publishedAt": "2026-09-28T00:00:00Z",
+      "title": "v1.0.56 发布：TV 大屏成就与统计、TV 端 AI 增强",
+      "body": "本版把两项桌面能力带进 TV 大屏：\n\n· 观影成就与观看统计——TV「我的」页新增 12 枚成就网格与观看统计四宫格，远程公告也接入了 TV 端。\n· AI 增强完整链路——设置页新增「AI 增强」分区（能力开关 + 一键修复预设）；在下载页长按剧集选「AI 增强」，选好预设即可发起；下载页顶部的队列面板实时显示每个任务的进度，完成后直接播放增强版。",
+      "publishedAt": "2026-09-30T00:00:00Z",
       "actionLabel": "下载本版",
-      "actionUrl": "https://github.com/65tiankehan/tengriqaghan-releases/releases/tag/v1.0.55"
-    },
-    {
-      "id": "release-v1.0.54-20260928",
-      "kind": "news",
-      "title": "v1.0.54 发布：修复独立更新窗口",
-      "body": "这一版修复 v1.0.52 引入的独立更新窗口缺陷。\n\n· 此前点「更新」弹出的新窗口显示的是启动页或 404 页面，而不是更新界面；同时主窗口也不会收起。现已修复：新窗口正常显示下载进度与安装入口，开窗即收起主窗口，关窗后自动还原。\n\n重要：如果你正在用 v1.0.52 或 v1.0.53——应用内更新通道在这两个版本上是坏的，点「更新」不会真正进入下载。请直接从官方发布页手动下载本版。",
-      "publishedAt": "2026-09-28T00:00:00Z",
-      "actionLabel": "下载本版",
-      "actionUrl": "https://github.com/65tiankehan/tengriqaghan-releases/releases/tag/v1.0.54"
+      "actionUrl": "https://github.com/65tiankehan/tengriqaghan-releases/releases/tag/v1.0.56"
     },
     {
       "id": "free-refund-notice-20260816",
