@@ -1,14 +1,14 @@
 {
-  "version": 18,
+  "version": 19,
   "announcements": [
     {
-      "id": "release-v1.0.56-20260930",
+      "id": "release-v1.0.57-20261005",
       "kind": "news",
-      "title": "v1.0.56 发布：TV 大屏成就与统计、TV 端 AI 增强",
-      "body": "本版把两项桌面能力带进 TV 大屏：\n\n· 观影成就与观看统计——TV「我的」页新增 12 枚成就网格与观看统计四宫格，远程公告也接入了 TV 端。\n· AI 增强完整链路——设置页新增「AI 增强」分区（能力开关 + 一键修复预设）；在下载页长按剧集选「AI 增强」，选好预设即可发起；下载页顶部的队列面板实时显示每个任务的进度，完成后直接播放增强版。",
-      "publishedAt": "2026-09-30T00:00:00Z",
+      "title": "v1.0.57 发布：可靠性升级与远控安全加固",
+      "body": "本版主题是「坏版本可灰度、可回滚」与「局域网遥控安全」：\n\n· 可靠性一期——滚动日志与崩溃捕获全部落本地（设置页新增「打开日志目录」）；软件更新支持稳定/测试双通道。\n· 遥控安全加固——局域网遥控新增 6 位配对码鉴权：电视设置页展示配对码，手机输入一次长期有效，未授权设备无法控制。\n· 更新下载修复——测试通道下载不再误回退镜像；更新全链路落日志可定位。\n· 界面修复——片源登录三处设置面板底栏不再贴边；继续观看播错影片修复；主程序包体缩减 59%。",
+      "publishedAt": "2026-10-05T00:00:00Z",
       "actionLabel": "下载本版",
-      "actionUrl": "https://github.com/65tiankehan/tengriqaghan-releases/releases/tag/v1.0.56"
+      "actionUrl": "https://github.com/65tiankehan/tengriqaghan-releases/releases/tag/v1.0.57"
     },
     {
       "id": "free-refund-notice-20260816",
